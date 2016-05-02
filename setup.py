@@ -20,7 +20,7 @@ For older changes, see
 
 from setuptools import setup, find_packages
 
-doclines = (__doc__ or '').splitlines()
+doclines = (__doc__ or '').splitlines() or ['', '']
 
 setup(name="python-card-me",
       version="0.9.3",
